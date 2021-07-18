@@ -1,8 +1,6 @@
 .box-parent{
   height:1200px;
-  padding-top:0.5rem;
-  padding-bottom:0.5rem;
-  background-color:orange;
+
 }
 .box{
   background-color:cyan;
@@ -11,4 +9,32 @@
 .parent{
   display:flex;
   justify-content: space-around;
+}
+
+
+.addborder{
+border: 10px solid orange
+}
+
+
+.box-parent{
+  height:1200px;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  background-color:orange;
+}
+.box{
+  background-color:cyan;
+  margin-bottom:10px;
+}
+
+.parent{
+  display:flex;
+  justify-content: space-around;
+}
+#fixedbutton {
+  color:white;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
 }
