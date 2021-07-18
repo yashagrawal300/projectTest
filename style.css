@@ -1,0 +1,14 @@
+.box-parent{
+  height:1200px;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  background-color:orange;
+}
+.box{
+  background-color:cyan;
+}
+
+.parent{
+  display:flex;
+  justify-content: space-around;
+}
