@@ -12,15 +12,6 @@ const { data } = require("cheerio/lib/api/attributes");
 
 
 
-// var DOMAIN = "pro-sequence.tech";
-// var api_key = '812de07cee835dc72be3548bcd0bd9ff-7dcc6512-77788330';
-// var mailgun = require('mailgun-js')({ apiKey: api_key, domain: DOMAIN });
-
-// const accountSid = process.env.TWILIO_ACCOUNT_SID;
-// const authToken = process.env.TWILIO_AUTH_TOKEN;
-// const client = require('twilio')(accountSid, authToken);
-
-
 var urlencodedParser = bodyparser.urlencoded({ extended: false }) 
 
 
@@ -33,10 +24,6 @@ const dev = process.env.NODE_ENV !== "production";
 const app = next({dev});
 
 //MongoDB Connection
-mongodb.connect("mongodb+srv://yash_computer:forgetme111@cluster0.dxmvj.mongodb.net/prosequence",{useNewUrlParser: true, useUnifiedTopology: true})
-    .then( () => console.log(" WORKING"))
-    .catch( (error) => console.log("NOT WORKING ", + error));
-
 
 mongodb.set('useFindAndModify', false);
 var cache = {}
