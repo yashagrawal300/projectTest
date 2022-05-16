@@ -1,0 +1,278 @@
+body{
+    background: radial-gradient(rgb(4, 4, 106), rgb(163, 158, 231));
+}
+
+.changemaxwidth{
+     max-width : 20rem
+}
+.changemaxwidthHomeCards{
+     max-width : 17rem
+}
+
+.radius{
+    border-radius: 20px;
+
+}
+
+.sizing{
+    height: fit-content;
+    width: fit-content;
+    border-radius: 15px;
+}
+
+.sizing:hover{
+    border-radius: 20px;
+    box-shadow: 0px 20px 17px -5px rgba(255, 1, 1, 0.74);
+    
+}
+
+.shadow{
+
+
+    box-shadow: 0px 10px 17px -5px rgba(255, 1, 1, 0.64);
+}
+
+.blueshadow{
+    background: #F4F2F2;
+box-shadow: 0px 10px 17px -5px #001AFF;
+}
+
+
+.search{
+    padding: 0;
+
+}
+.changeH2Size {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.searchBar{
+
+    height: 30px;
+    outline: none;
+
+
+    box-shadow: 8px 5px 4px rgba(0, 0, 0, 0.35);
+}
+
+
+.something1{
+
+    width: 100%; padding: 0px; border: none; margin: 0px; height: auto; background: url("https://www.google.com/cse/static/images/1x/en/branding.png") left center no-repeat rgb(255, 255, 255); outline: none;
+
+}
+
+.something2{
+    width: 100%; padding: 0px;
+}
+
+.something3{
+width: 100%; padding: 0px; border: none; margin: 0px; height: auto; outline: none;
+}
+
+.wrapping3{
+  overflow-wrap: anywhere;
+}
+
+.wrapping{
+    white-space: pre-wrap;
+    width: inherit;
+}
+.anotherwrap{
+    white-space: pre-wrap;
+}
+
+.wordWrap{
+  word-wrap: normal ;
+
+}
+
+.fixwidth{
+    width: inherit;
+}
+
+.wrapping2{
+    white-space: pre-wrap;
+    width: inherit;
+
+}
+.footer{
+    z-index: -10;
+}
+
+.code{
+    white-space: pre-wrap;
+    font-size: medium;
+
+}
+
+
+.maintitle{
+    font-size: medium;
+
+}
+
+
+
+@keyframes slideInRight {
+    from {
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.slideInRight {
+    animation-name: slideInRight;
+}
+
+
+tr:nth-child(odd) {
+  background-color: #c0c0c0;
+}
+
+
+.page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+}
+
+.page_404  img{ width:100%; height:100%}
+
+.four_zero_four_bg{
+ 
+ background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+ }
+ 
+ 
+ .four_zero_four_bg h1{
+ font-size:80px;
+ }
+ 
+  .four_zero_four_bg h3{
+			 font-size:80px;
+			 }
+			 
+			 .link_404{			 
+	color: #fff!important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;}
+	.contant_box_404{ margin-top:-50px;}
+
+    @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+:root {
+  --start-color: #0575E6;
+  --end-color: #021B79;
+  --p-color: #929DA6;
+  --button-background: #0575E6;
+  --input-background: #e4eff8;
+  --radius-50: 50px;
+  --padding-15: 15px;
+}
+
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .content {
+  background: #fff;
+  padding: 40px;
+  width: 100%;
+  max-width: 500px;
+  min-width: 200px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.wrapper .content header h1 {
+  font-size: 230%;
+  margin-top: 0;
+}
+.wrapper .content section {
+  color: var(--p-color);
+  font-size: 15px;
+}
+.wrapper .content footer {
+  padding: var(--padding-15);
+}
+.wrapper .content footer input {
+  border: unset;
+  background-color: var(--input-background);
+  padding: var(--padding-15);
+  font-size: 13px;
+  border-radius: var(--radius-50);
+  width: 250px;
+}
+.wrapper .content footer button {
+  background-color: var(--button-background);
+  color: #fff;
+  border: unset;
+  width: 120px;
+  border-radius: var(--radius-50);
+  padding: var(--padding-15);
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.wrapper .content footer input:focus, .wrapper .content footer button:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 720px) {
+  .wrapper .content {
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+    padding: var(--padding-15);
+  }
+  .wrapper .content footer input {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+}
+
+
+mjx-container{
+  display: inline !important;
+  user-select:text;
+
+}
+
+
+.section-title{
+  font-family:helvetica neue,Helvetica,Arial,sans-serif;
+  font-size:115%;
+  font-weight:700;
+}
+
+
+
+
+
+.MJXc-display{
+  display: inline !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
